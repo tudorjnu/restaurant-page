@@ -1,3 +1,5 @@
-import pageLoad from "./page-load";
+import initializePage from './page-load';
 
-pageLoad().makePage();
+document.addEventListener('DOMContentLoaded', () => {
+  initializePage();
+});
